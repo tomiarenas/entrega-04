@@ -190,6 +190,7 @@
         display: flex;
         justify-content: center;
         border: #1b242b;
+        transform: translateY(-70px);
     
     }
     .buscador input{
@@ -216,7 +217,7 @@
     aside{
         grid-area:  3 / 3 / 5 / 4 ;
         background-color: #223747;
-        
+        transform: translateY(60px);
         
     }
     .redes-container{
