@@ -170,8 +170,10 @@
         grid-row-gap: 2px;   
         background-color: #0d161d;
         height: 100vh;
+        padding: 2px
     
     }
+   
 
     .home-header{
         grid-area:  1 / 1 / 2 / 4;
@@ -220,8 +222,10 @@
         ;
         
     }
+    
     .redes-container{
         grid-area: 5 / 1 / 6 / 4;
+        background-color: #223747;
         
     }
     .img-login-carrito{
@@ -319,6 +323,16 @@
         font-size: 2rem;
 
     }
+    .main-container-promo{
+        transform: translate(10vw,-5vh);
+    }
+    .main-container-promo form{
+        text-align: center;
+    }
+    .imagen-promocion{
+        height: 20vh;
+        width: 20vw;
+    }
     .revendedores-container{
         transform: translate(17vw,-8vh);
     
@@ -329,6 +343,9 @@
     .container-carrito img{
         height: 3vh;
         width: 3vw;
+    }
+    .faq-main-container{
+        transform: translate(15vw,-5vh);
     }
     .forms-revendedores{
         display: flex;
